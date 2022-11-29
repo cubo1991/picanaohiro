@@ -8,24 +8,26 @@ import { Mapping } from './Mapping/Mapping';
 import { Vjs } from './Vjs/Vjs';
 import { Web } from './Web/Web';
 import { NavBar } from './NavBar/NavBar';
-import {Route, Routes} from 'react-router-dom'
+import {Route, Routes, BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
+    <BrowserRouter>
     <div>
       <NavBar/>
       <h1>Titulo</h1>   
        <Routes>
-      <Route path ='/Diseño' component={Diseño}/>
-      <Route path ='/Fotografia' component={Fotografia}/>
-      <Route path ='/Iluminacion' component={Iluminacion}/>
-      <Route path ='/Mapping' component={Mapping}/>
-      <Route path ='/Vjs' component ={Vjs}/>
-      <Route path ='/Web' component ={Web}/>
-      <Route path ='/Animacion' component ={Animacion}/>
+      <Route exact path = '/'lo />
+      <Route exact path ='/diseño' element={<Diseño/>}/>
+      <Route exact path ='/fotografia' element={<Fotografia/>}/>
+      <Route exact path ='/iluminacion' element={<Iluminacion/>}/>
+      <Route exact path ='/mapping' element={<Mapping/>}/>
+      <Route exact path ='/vjs' element ={<Vjs/>}/>
+      <Route exact path ='/web' element ={<Web/>}/>
+      <Route exact path ='/animacion' element={<Animacion/>}/>
         </Routes>
       </div>
-    
+      </BrowserRouter>
   );
 }
 
