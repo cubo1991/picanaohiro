@@ -8,14 +8,20 @@ import { Mapping } from './Mapping/Mapping';
 import { Vjs } from './Vjs/Vjs';
 import { Web } from './Web/Web';
 import { NavBar } from './NavBar/NavBar';
-import {Route, Routes, BrowserRouter} from 'react-router-dom'
+import {Route, Routes, BrowserRouter, Form} from 'react-router-dom';
+import vertical from './Assets/img/vertical.jpg'; 
 
 function App() {
   return (
     <BrowserRouter>
-    <div>
+    <div className='container'>
+
       <NavBar/>
-      <h1>Titulo</h1>   
+      <h1> PICA AGENCIA INQUIETA </h1>
+
+            <img className='vertical' src= {vertical}/>
+            
+
        <Routes>
       <Route exact path = '/'lo />
       <Route exact path ='/diseño' element={<Diseño/>}/>
