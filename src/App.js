@@ -8,22 +8,22 @@ import { Mapping } from './Mapping/Mapping';
 import { Vjs } from './Vjs/Vjs';
 import { Web } from './Web/Web';
 import { NavBar } from './NavBar/NavBar';
-import {Route, Routes, BrowserRouter, Form} from 'react-router-dom';
-import vertical from './Assets/img/vertical.jpg'; 
+import {Route, Routes, BrowserRouter} from 'react-router-dom';
+import { Home } from './Home/Home';
+
 
 function App() {
   return (
     <BrowserRouter>
+    
     <div className='container'>
 
       <NavBar/>
-      <h1> PICA AGENCIA INQUIETA </h1>
-
-            <img className='vertical' src= {vertical}/>
+ 
             
 
-       <Routes>
-      <Route exact path = '/'lo />
+      <Routes>  
+      <Route exact path ='/' element={<Home/>}/>
       <Route exact path ='/diseño' element={<Diseño/>}/>
       <Route exact path ='/fotografia' element={<Fotografia/>}/>
       <Route exact path ='/iluminacion' element={<Iluminacion/>}/>
@@ -31,8 +31,9 @@ function App() {
       <Route exact path ='/vjs' element ={<Vjs/>}/>
       <Route exact path ='/web' element ={<Web/>}/>
       <Route exact path ='/animacion' element={<Animacion/>}/>
-        </Routes>
+      </Routes>
       </div>
+      
       </BrowserRouter>
   );
 }
