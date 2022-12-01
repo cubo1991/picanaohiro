@@ -3,29 +3,83 @@ body {
     font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
-.container h1{ 
-    font-size: 120px;
-    font-weight: 600;
+.title { 
+    font-size: 200px;
     line-height: 150px;
-    text-align: center;
-    letter-spacing: 1.8px;
-    word-spacing: 2.2px;
+    letter-spacing: normal;
+    word-spacing: normal;
     color: #000000;
-    font-weight: normal;
+    font-weight: 400;
     text-decoration: none;
+    text-align: justify;
     font-style: normal;
     font-variant: normal;
-    text-transform: none;
-
+    padding-left: 30px;
+    width:100% ;
+ 
+ 
+    
 }
-
 
 .vertical{
     width: 200px;
     height: 300px;
     position: absolute;
-    right:30px;
-    top:30px;
+    right:1px;
+    top:170px;
+    
 }
+
+.subvertical{ 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 450px; 
+    right: 60px;
+}
+
+.pvertical {
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 480px; 
+    right: 5px;
+}
+
+.imgdiseño{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:60px;
+    top:330px;
+}
+
+.subdiseño{ 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 460px; 
+    right: 1230px;
+}
+
+.pdiseño{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 490px; 
+    right: 1150px;
+
+}
+
 
 
