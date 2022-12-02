@@ -7,18 +7,26 @@ import jrrpalermo from '../Assets/img/jrrpalermo.jpg';
 import bombonera from  '../Assets/img/bombonera.jpg';
 import pampa from  '../Assets/img/pampa.jpg';
 
+
 export const Home = () => {
   return (
     <div>
 
 <h1 className={s.title}> PICA AGENCIA INQUIETA </h1>
 
-<div> <img className={s.vertical} src= {vertical} alt={"imagen"}/>
+<div> 
+  <Link to={'/fotografia'}>
+  <img className={s.vertical} src= {vertical} alt={"imagen"}/>
+  </Link>
 <h2 className={s.subvertical}> FOTOGRAFIA</h2>
 <p className={s.pvertical}> Las mejores fotos son nuestras</p>
 </div>
 
-<div> <img className={s.imgdiseño} src= {taka} alt={"imagen"}/>
+<div> 
+<Link to={'/diseño'}>
+  <img className={s.imgdiseño} src= {taka} alt={"imagen"}/>
+</Link>
+
 <h2 className={s.subdiseño}> DISEÑO</h2>
 <p className={s.pdiseño}>Diseños de la puta madre</p>
 </div>
