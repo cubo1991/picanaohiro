@@ -81,5 +81,134 @@ body {
 
 }
 
+.imgmapping {
+
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:600px;
+    top:600px;
+
+}
+.submapping{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 745px; 
+    right: 645px;
+}
+
+.pmapping{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 780px; 
+    right: 550px;
+
+}
+
+.imgweb {
+
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:900px;
+    top:600px;
+
+}
+.subweb{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 745px; 
+    right: 400px;
+}
+
+.pweb{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 780px; 
+    right: 312px;
+
+}
+
+.imgvjs {
+
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left:100px;
+    top: 810px;
+
+}
+.subvjs { 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 1000px; 
+    right: 1210px;
+}
+
+.pvjs {
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 1030px; 
+    right: 1130px;
+
+}
+
+.imgiluminacion {
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:100px;
+    top: 1210px;
+
+}
+.subiluminacion { 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 1400px; 
+    right: 1095px;
+}
+
+.piluminacion {
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 1430px; 
+    right: 1117px;
+
+}
+
+
 
 
