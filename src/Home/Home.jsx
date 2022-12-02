@@ -6,6 +6,7 @@ import chipi from '../Assets/img/chipi.jpg';
 import jrrpalermo from '../Assets/img/jrrpalermo.jpg'; 
 import bombonera from  '../Assets/img/bombonera.jpg';
 import pampa from  '../Assets/img/pampa.jpg';
+import { Link } from 'react-router-dom';
 
 
 export const Home = () => {
@@ -31,22 +32,36 @@ export const Home = () => {
 <p className={s.pdiseño}>Diseños de la puta madre</p>
 </div>
 
-<div> <img className={s.imgmapping} src= {chipi} alt={"imagen"}/>
+<div> 
+  <Link to={'/mapping'}>
+  <img className={s.imgmapping} src= {chipi} alt={"imagen"}/>
+  </Link>
+
 <h2 className={s.submapping}> MAPPING</h2>
 <p className={s.pmapping}>Te proyectamos hasta tu futuro</p>
 </div>
 
-<div> <img className={s.imgweb} src= {jrrpalermo} alt={"imagen"}/>
+<div> 
+  <Link to={'/web'}>
+  <img className={s.imgweb} src= {jrrpalermo} alt={"imagen"}/>
+  </Link>
 <h2 className={s.subweb}> WEB</h2>
 <p className={s.pweb}> La web que soñas aca</p>
 </div>
 
-<div> <img className={s.imgvjs} src= {bombonera} alt={"imagen"}/>
+<div> 
+  <Link to={'/vjs'}>
+  <img className={s.imgvjs} src= {bombonera} alt={"imagen"}/>
+  </Link>
 <h2 className={s.subvjs}> VJS</h2>
 <p className={s.pvjs}> Aca iria un video?</p>
 </div>
 
-<div> <img className={s.imgiluminacion} src= {pampa} alt={"imagen"}/>
+<div> 
+  <Link to={'/iluminacion'}>
+  <img className={s.imgiluminacion} src= {pampa} alt={"imagen"}/>
+  </Link>
+
 <h2 className={s.subiluminacion}> ILUMINACION</h2>
 <p className={s.piluminacion}> Prende y apaga la tv</p>
 </div>
