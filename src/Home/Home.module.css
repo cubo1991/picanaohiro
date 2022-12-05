@@ -4,29 +4,28 @@ body {
 }
 
 .title { 
-    font-size: 200px;
-    line-height: 150px;
-    letter-spacing: normal;
-    word-spacing: normal;
+    font-size: 150px;
+    line-height: 120px;
+    letter-spacing: 10px;
     color: #000000;
-    font-weight: 400;
+    font-weight: 430;
     text-decoration: none;
-    text-align: justify;
+    text-align: center;
     font-style: normal;
     font-variant: normal;
-    padding-left: 30px;
-    width:100% ;
- 
- 
-    
+    top: 10px;
+    width: 90%;
+    z-index: 4;
+
 }
 
 .vertical{
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 232px;
     position: absolute;
-    right:1px;
-    top:170px;
+    right:250px;
+    top:140px;
+    z-index: 3;
     
 }
 
@@ -36,27 +35,26 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 450px; 
-    right: 60px;
+    top: 350px; 
+    right: 260px;
 }
 
 .pvertical {
-
     font-size: 10px;
     font-weight: bold;
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 480px; 
-    right: 5px;
+    top: 380px; 
+    right: 200px;
 }
 
 .imgdiseño{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     position: absolute;
-    left:60px;
-    top:330px;
+    left:75px;
+    top:265px;
 }
 
 .subdiseño{ 
@@ -65,8 +63,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 460px; 
-    right: 1230px;
+    top: 365px; 
+    right: 1190px;
 }
 
 .pdiseño{
@@ -76,18 +74,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 490px; 
-    right: 1150px;
+    top: 400px; 
+    right: 1112px;
 
 }
 
 .imgmapping {
 
     width: 150px;
-    height: 150px;
+    height: 100px;
     position: absolute;
-    left:600px;
-    top:600px;
+    left:700px;
+    top:420px;
 
 }
 .submapping{ 
@@ -97,8 +95,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 745px; 
-    right: 645px;
+    top:500px; 
+    right: 545px;
 }
 
 .pmapping{
@@ -108,18 +106,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 780px; 
-    right: 550px;
+    top: 540px; 
+    right:450px;
 
 }
 
 .imgweb {
 
     width: 150px;
-    height: 150px;
+    height: 100px;
     position: absolute;
-    left:900px;
-    top:600px;
+    left:950px;
+    top:420px;
 
 }
 .subweb{ 
@@ -129,8 +127,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 745px; 
-    right: 400px;
+    top:500px; 
+    right: 350px;
 }
 
 .pweb{
@@ -140,18 +138,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 780px; 
-    right: 312px;
+    top: 540px; 
+    right: 260px;
 
 }
 
 .imgvjs {
 
-    width: 500px;
+    width: 620px;
     height: 200px;
     position: absolute;
-    left:100px;
-    top: 810px;
+    left:80px;
+    top: 570px;
 
 }
 .subvjs { 
@@ -161,8 +159,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 1000px; 
-    right: 1210px;
+    top: 750px; 
+    right: 1230px;
 }
 
 .pvjs {
@@ -172,18 +170,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 1030px; 
-    right: 1130px;
+    top: 780px; 
+    right: 1150px;
 
 }
 
 .imgiluminacion {
 
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 100px;
     position: absolute;
-    left:100px;
-    top: 1210px;
+    left:80px;
+    top: 850px;
 
 }
 .subiluminacion { 
@@ -193,8 +191,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 1400px; 
-    right: 1095px;
+    top: 927px; 
+    right: 1115px;
 }
 
 .piluminacion {
@@ -204,10 +202,76 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 1430px; 
-    right: 1117px;
+    top: 960px; 
+    right: 1138px;
 
 }
+
+.imganimacion {
+
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left:700px;
+    top:850px;
+
+}
+.subanimacion{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top:930px; 
+    right: 437px; 
+}
+
+.panimacion{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 960px; 
+    right:550px;
+
+}
+
+.imgalgomas {
+
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 950px;
+    top:850px;
+
+}
+
+.subalgomas{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top:930px; 
+    right: 230px; 
+}
+
+.palgomas{
+
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    position: absolute;
+    top: 960px; 
+    right:315px;
+
+}
+
 
 
 

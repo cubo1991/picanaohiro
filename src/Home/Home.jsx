@@ -7,6 +7,8 @@ import jrrpalermo from '../Assets/img/jrrpalermo.jpg';
 import bombonera from  '../Assets/img/bombonera.jpg';
 import pampa from  '../Assets/img/pampa.jpg';
 import { Link } from 'react-router-dom';
+import bocamc from  '../Assets/img/bocamc.png';
+import riquelmemate from  '../Assets/img/riquelmemate.jpg';
 
 
 export const Home = () => {
@@ -65,6 +67,20 @@ export const Home = () => {
 <h2 className={s.subiluminacion}> ILUMINACION</h2>
 <p className={s.piluminacion}> Prende y apaga la tv</p>
 </div>
+
+<div> 
+  <img className={s.imganimacion} src= {bocamc} alt={"imagen"}/>
+<h2 className={s.subanimacion}> ANIMACION VIDEO</h2>
+<p className={s.panimacion}> Animaniacs aca</p>
+</div>
+
+<div> 
+  <img className={s.imgalgomas} src= {riquelmemate} alt={"imagen"}/>
+<h2 className={s.subalgomas}> ALGO MAS ACA</h2>
+<p className={s.palgomas}> Algo mas aca</p>
+</div>
+
+
 
 
     </div>
