@@ -264,13 +264,76 @@ body {
 
     font-size: 10px;
     font-weight: bold;
-    text-align: center;
+    text-align: justify;
     letter-spacing: 1.8px;
     position: absolute;
     top: 960px; 
     right:315px;
 
 }
+
+.box h2{
+    font-size: 110px;
+    position: absolute;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    left:500px;
+    transform: rotate(180deg);
+    line-height: 120px;
+    letter-spacing: 10px;
+    color: #000000;
+    font-weight: 350;
+    top: 545px;
+}
+
+.box h3{
+    font-size: 110px;
+    position: absolute;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    left:750px;
+    transform: rotate(180deg);
+    line-height: 120px;
+    color: #000000;
+    font-weight: 350;
+    top: 505px;
+}
+
+.box h4{
+    font-size: 110px;
+    position: absolute;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    left:850px;
+    transform: rotate(180deg);
+    line-height: 120px;
+    color: #000000;
+    font-weight: 350;
+    top: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+   
+
+   
+
+
+
+
+  
+    
+
+
 
 
 

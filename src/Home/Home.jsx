@@ -80,9 +80,15 @@ export const Home = () => {
 <p className={s.palgomas}> Algo mas aca</p>
 </div>
 
-
-
+  <div className={s.container}>
+    <div className={s.box}>
+      <h2>APOLLO </h2>
+      <h3> ISSUE09</h3>
+     <h4>OCT209</h4> 
+    
 
     </div>
-  )
-}
+  </div>
+
+</div>
+)} 
