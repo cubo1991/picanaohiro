@@ -5,15 +5,15 @@ import s from './NavBar.module.css'
 export const NavBar = () => {
   return (
     <div className={s.position}>
-    <div className='container d-flex flex-column flex-md-row' >
-<nav className={`navbar navbar-expand-md navbar-light d-flex flex-md-column desktop ${s.desktop}` }>
-  <Link to={'/'}> Home
+    <div className='container d-flex flex-column flex-md-row'>
+<nav className={`navbar navbar-expand-xl navbar-dark d-flex flex-md-column desktop ${s.marco} ${s.desktop}` }>
+  <Link to={'/'}> LOGO
     </Link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="btn btn-danger-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-    <div className='collapse navbar-collapse w-100' id= 'navbarSupportedContent'>
+    <div className='collapse navbar w-100' id= 'navbarSupportedContent'>
      <ul className='navbar-nav w-100 d-flex flex-md-column text-center text-md-end'>
     <Link to={'/diseño'} >
     <li className='nav-link' aria-current='page'>Diseño</li>

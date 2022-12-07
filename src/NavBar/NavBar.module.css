@@ -8,17 +8,39 @@ li{
 }
 .position {
     position: relative;
-    z-index: 999999999999git ;
+    z-index: 999999999999 ;
+   
 }
+
+.marco{
+    border-radius: 5%;
+    background-color: grey;
+    
+}
+
+.marco li{
+    color: white;
+}
+.marco li:hover{
+    color: black;
+}
+
+
 
 @media (min-width: 1200px) {
    .desktop{   
     left: 68rem;
-    top:22rem
+    top:18rem
    
 }
 .position {
     position: absolute;
+}
+
+.marco{
+    border-radius: 5%;
+    background-color: grey;
+    width: 6rem;
 }
 }
 
