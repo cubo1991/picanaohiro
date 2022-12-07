@@ -69,7 +69,9 @@ export const Home = () => {
 </div>
 
 <div> 
+  <Link to={'/animacion'}>
   <img className={s.imganimacion} src= {bocamc} alt={"imagen"}/>
+  </Link>
 <h2 className={s.subanimacion}> ANIMACION VIDEO</h2>
 <p className={s.panimacion}> Animaniacs aca</p>
 </div>

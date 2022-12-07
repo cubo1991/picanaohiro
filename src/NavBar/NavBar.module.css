@@ -1,0 +1,24 @@
+ul{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    
+}
+.position {
+    position: relative;
+    z-index: 999999999999git ;
+}
+
+@media (min-width: 1200px) {
+   .desktop{   
+    left: 68rem;
+    top:22rem
+   
+}
+.position {
+    position: absolute;
+}
+}
+

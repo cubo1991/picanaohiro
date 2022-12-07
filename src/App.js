@@ -10,6 +10,11 @@ import { Web } from './Web/Web';
 import { NavBar } from './NavBar/NavBar';
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import { Home } from './Home/Home';
+import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery/dist/jquery.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
 
 
 function App() {

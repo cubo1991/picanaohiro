@@ -1,2 +1,7 @@
-
+.navbar-expand-md .navbar-nav .nav-link{
+    padding-right: initial;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
 
