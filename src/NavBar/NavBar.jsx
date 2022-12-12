@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import s from './NavBar.module.css'
+import Facebook from '../Assets/facebook.png'
+import Instagram from '../Assets/instagram.png'
 
 export const NavBar = () => {
   return (
@@ -36,7 +38,9 @@ export const NavBar = () => {
     <Link to={'/animacion'} >
     <li className='nav-link'>Animación</li>
     </Link>
-  </ul>
+    <li className='nav-link'> <a href='https://www.facebook.com/profile.php?id=100071396000140'><img src={Facebook} alt='Facebook'/></a></li>
+   <li className='nav-link'> <a href='https://www.instagram.com/pica.mza/'><img src={Instagram} alt='Instagram'/></a></li>
+    </ul>
 
     </div>
 
