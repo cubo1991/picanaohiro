@@ -8,25 +8,25 @@ body {
     line-height: 120px;
     letter-spacing: 10px;
     color: #000000;
-    font-weight: 430;
+    font-weight: 480;
     text-decoration: none;
     text-align: center;
     font-style: normal;
     font-variant: normal;
     top: 10px;
     width: 90%;
-    z-index: 4;
+    position: absolute;
+    z-index: 50;
 
 }
 
 .vertical{
-    width: 150px;
-    height: 232px;
+    width: 190px;
+    height: 240px;
     position: absolute;
-    right:250px;
-    top:140px;
+    right:100px;
+    top:10px;
     z-index: 3;
-    
 }
 
 .subvertical{ 
@@ -35,8 +35,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 350px; 
-    right: 260px;
+    top: 250px; 
+    right: 140px;
 }
 
 .pvertical {
@@ -45,16 +45,16 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 380px; 
-    right: 200px;
+    top: 280px; 
+    right: 83px;
 }
 
 .imgdiseño{
     width: 120px;
     height: 120px;
     position: absolute;
-    left:75px;
-    top:265px;
+    left:190px;
+    top:140px;
 }
 
 .subdiseño{ 
@@ -63,8 +63,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 365px; 
-    right: 1190px;
+    top: 260px; 
+    right: 1075px;
 }
 
 .pdiseño{
@@ -74,18 +74,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 400px; 
-    right: 1112px;
+    top: 280px; 
+    right: 996px;
 
 }
 
 .imgmapping {
 
-    width: 150px;
+    width: 190px;
     height: 100px;
     position: absolute;
-    left:700px;
-    top:420px;
+    right: 400px;
+    top:320px;
 
 }
 .submapping{ 
@@ -95,8 +95,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top:500px; 
-    right: 545px;
+    top:420px; 
+    right: 485px;
 }
 
 .pmapping{
@@ -106,18 +106,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 540px; 
-    right:450px;
+    top: 460px; 
+    right:390px;
 
 }
 
 .imgweb {
 
-    width: 150px;
+    width: 190px;
     height: 100px;
     position: absolute;
-    left:950px;
-    top:420px;
+    right:100px;
+    top:320px;
 
 }
 .subweb{ 
@@ -127,8 +127,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top:500px; 
-    right: 350px;
+    top:420px; 
+    right: 240px;
 }
 
 .pweb{
@@ -138,18 +138,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 540px; 
-    right: 260px;
+    top: 460px; 
+    right: 150px;
 
 }
 
 .imgvjs {
 
-    width: 620px;
+    width: 550px;
     height: 200px;
     position: absolute;
-    left:80px;
-    top: 570px;
+    left:200px;
+    top: 473px;
 
 }
 .subvjs { 
@@ -159,8 +159,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 750px; 
-    right: 1230px;
+    top: 680px; 
+    right: 1100px;
 }
 
 .pvjs {
@@ -170,18 +170,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 780px; 
-    right: 1150px;
+    top: 700px; 
+    right: 1030px;
 
 }
 
 .imgiluminacion {
 
-    width: 250px;
+    width: 190px;
     height: 100px;
     position: absolute;
-    left:80px;
-    top: 850px;
+    left:200px;
+    top: 750px;
 
 }
 .subiluminacion { 
@@ -191,8 +191,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 927px; 
-    right: 1115px;
+    top: 850px; 
+    right: 990px;
 }
 
 .piluminacion {
@@ -202,18 +202,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 960px; 
-    right: 1138px;
+    top: 880px; 
+    right: 1020px;
 
 }
 
 .imganimacion {
 
-    width: 150px;
+    width: 190px;
     height: 100px;
     position: absolute;
-    left:700px;
-    top:850px;
+    right: 400px;
+    top:750px;
 
 }
 .subanimacion{ 
@@ -223,8 +223,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top:930px; 
-    right: 437px; 
+    top:850px; 
+    right: 380px; 
 }
 
 .panimacion{
@@ -234,18 +234,18 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 960px; 
-    right:550px;
+    top: 870px; 
+    right:490px;
 
 }
 
 .imgalgomas {
 
-    width: 150px;
+    width: 190px;
     height: 100px;
     position: absolute;
-    left: 950px;
-    top:850px;
+    right: 100px;
+    top:750px;
 
 }
 
@@ -256,8 +256,8 @@ body {
     text-align: center;
     letter-spacing: 1.8px;
     position: absolute;
-    top:930px; 
-    right: 230px; 
+    top:850px; 
+    right: 120px; 
 }
 
 .palgomas{
@@ -267,51 +267,51 @@ body {
     text-align: justify;
     letter-spacing: 1.8px;
     position: absolute;
-    top: 960px; 
-    right:315px;
+    top: 880px; 
+    right:205px;
 
 }
 
 .box h2{
-    font-size: 110px;
+    font-size: 100px;
     position: absolute;
     text-transform: uppercase;
     writing-mode: vertical-rl;
-    left:500px;
+    left:615px;
     transform: rotate(180deg);
-    line-height: 120px;
+    line-height:5px;
     letter-spacing: 10px;
     color: #000000;
     font-weight: 350;
-    top: 545px;
+    top: 450px;
 }
 
 .box h3{
-    font-size: 110px;
-    position: absolute;
-    letter-spacing: 15px;
+    font-size: 100px;
+    position: relative;
+    letter-spacing: 0px;
     text-transform: uppercase;
     writing-mode: vertical-rl;
-    left:750px;
+    left:910px;
     transform: rotate(180deg);
-    line-height: 120px;
+    line-height: 0px;
     color: #000000;
-    font-weight: 350;
-    top: 505px;
+    font-weight: 360;
+    top: 420px;
 }
 
 .box h4{
-    font-size: 110px;
-    position: absolute;
-    letter-spacing: 20px;
+    font-size: 100px;
+    position: relative;
+    letter-spacing: 0px;
     text-transform: uppercase;
     writing-mode: vertical-rl;
-    left:850px;
+    left:960px;
     transform: rotate(180deg);
-    line-height: 120px;
+    line-height: 0px;
     color: #000000;
-    font-weight: 350;
-    top: 450px;
+    font-weight: 360;
+    top: 0px;
 }
 
 .noSeleccionable {
