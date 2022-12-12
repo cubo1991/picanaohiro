@@ -84,9 +84,9 @@ export const Home = () => {
 
   <div className={s.container}>
     <div className={s.box}>
-      <h2>APOLLO </h2>
-      <h3> ISSUE09</h3>
-     <h4>OCT209</h4> 
+      <h2 className={s.noSeleccionable}>APOLLO </h2>
+      <h3 className={s.noSeleccionable}> ISSUE09</h3>
+     <h4 className={s.noSeleccionable}>OCT209</h4> 
     
 
     </div>

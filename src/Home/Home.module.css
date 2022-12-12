@@ -314,6 +314,12 @@ body {
     top: 450px;
 }
 
+.noSeleccionable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
 
 
 
