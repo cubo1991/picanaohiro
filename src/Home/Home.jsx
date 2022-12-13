@@ -15,6 +15,7 @@ export const Home = () => {
   return (
     <div>
 
+
 <h1 className={s.title}> PICA AGENCIA INQUIETA </h1>
 
 <div> 
@@ -92,5 +93,9 @@ export const Home = () => {
     </div>
   </div>
 
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </div>
 )} 

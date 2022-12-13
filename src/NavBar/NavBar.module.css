@@ -29,8 +29,8 @@ li{
 
 @media (min-width: 1200px) {
    .desktop{   
-    left: 68rem;
-    top:18rem
+    right: 120px;
+    top:18rem;
    
 }
 .position {
